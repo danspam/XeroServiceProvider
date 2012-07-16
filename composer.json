@@ -1,0 +1,27 @@
+{
+	"repositories": [
+		{
+            "type": "package",
+            "package": {
+                "name": "PhpXero",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/danspam/PHP-Xero.git",
+                    "type": "git",
+					"reference": "master"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "PhpXero": "*",
+        "silex/silex": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhpXero": "vendor",
+            "XeroServiceProvider" : "src"
+        }
+    }
+}
