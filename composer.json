@@ -1,4 +1,12 @@
 {
+    "name": "danspam/XeroServiceProvider",
+    "description": "Silex service provider for PhpXero",
+    "authors": [
+        {
+            "name": "Daniel Sargeant",
+            "email": "dan@onemoretake.com"
+        }
+    ],
 	"repositories": [
 		{
             "type": "package",
