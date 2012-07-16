@@ -1,11 +1,11 @@
 {
-    "hash": "62dca0302b1c789be9d7cfb4ecf5c24a",
+    "hash": "0697dd335951a499c6eff23bb1805b9c",
     "packages": [
         {
             "package": "PhpXero",
-            "version": "master",
-            "source-reference": "master",
-            "commit-date": "1342412892"
+            "version": "dev-master",
+            "source-reference": "5d5ed502d2577ca466e6229163a3502c555fd71e",
+            "commit-date": "1342430557"
         },
         {
             "package": "pimple/pimple",
