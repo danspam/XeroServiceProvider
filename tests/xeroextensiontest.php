@@ -6,18 +6,19 @@ class XeroExtensionTest extends PHPUnit_Framework_TestCase
 {
     public function testXeroExtensionLoads()
     {
-    	/*
+
         $app = new Silex\Application;
 		$app->register(new \XeroServiceProvider\XeroServiceProvider(), array(
 			'xero.key' =>  'SOMEKEY',
 			'xero.secret' => 'SOMESECRET',
-			'xero.certpath' =>  'xeropublickey.cer' ,
-			'xero.keypath' =>  'xeroprivatekey.pem'
+			'xero.publickeypath' =>  'xeropublickey.cer' ,
+			'xero.privatekeypath' =>  'xeroprivatekey.pem',
+            'xero.useragent' => 'My Private App'
 		));
 
 		$xero = $app['xero'];
 
-		$this->assertInstanceOf('PhpXero\Xero', $xero);
- */
+		$this->assertInstanceOf('XeroOAuth', $xero);
+
     }
 }

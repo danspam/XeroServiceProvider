@@ -10,13 +10,13 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/danspam/PHP-Xero"
+            "url": "https://github.com/lloydhazlett/XeroOAuth-PHP"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "PhpXero": "*",
-        "silex/silex": "1.0.*"
+        "xeroapi/xerooauth-php": "dev-composer",
+        "silex/silex": "1.*"
     },
     "autoload": {
         "psr-0": {
