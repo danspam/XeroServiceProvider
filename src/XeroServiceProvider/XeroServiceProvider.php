@@ -12,6 +12,8 @@ class XeroServiceProvider implements ServiceProviderInterface
             return new \XeroOAuth(array(
                 'consumer_key' => $app['xero.key'],
                 'shared_secret' => $app['xero.secret'],
+                'access_token' => $app['xero.key'],
+                'access_token_secret' => $app['xero.secret'],
                 'rsa_private_key' => $app['xero.privatekeypath'],
                 'rsa_public_key' => $app['xero.publickeypath'],
                 'core_version' => '2.0',
